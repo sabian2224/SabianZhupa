@@ -195,7 +195,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: rgb(77, 60, 126);
+  background-color: #0078ff;
   width: 100px;
   bottom: -12px;
 }
@@ -868,7 +868,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: rgb(121, 97, 192);
+  background-color: #0078ff;
 }
 
 /*--------------------------------------------------------------
@@ -939,7 +939,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px white;
 }
 
 .counter-num .counter {
