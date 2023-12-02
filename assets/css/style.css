@@ -177,7 +177,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: rgb(68,155,255);
   margin: 0 auto;
 }
 
@@ -236,12 +236,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px rgb(68,155,255);
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: rgb(68,155,255);
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -265,12 +265,13 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: rgb(68,155,255);
   margin-right: 10px;
 }
 
 /*------/ Ico Circle /------*/
 .ico-circle {
+  padding-top: 2px;
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -278,7 +279,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px rgb(68,155,255);
   display: block;
 }
 
@@ -366,7 +367,7 @@ a:hover {
 }
 
 .back-to-top.active {
-  background-color: rgb(77, 60, 126);
+  background-color: rgb(68,155,255);
   visibility: visible;
   opacity: 1;
 
@@ -435,7 +436,7 @@ a:hover {
 
 .button-a {
   text-decoration: none;
-  background-color: #0078ff;
+  background-color: rgb(68,155,255);
   color: #fff;
   border-color: #cde1f8;
 }
