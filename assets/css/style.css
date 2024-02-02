@@ -11,6 +11,37 @@
 --------------------------------------------------------------*/
 /*Styles made by me*/
 
+/*Contact Form*/
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+#contact-section{ 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Set white background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form button {
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  background-color: #007bff; /* Set blue color for the button */
+  color: #ffffff; /* Set white text color for the button */
+  border: none;
+}
+
 .footer { 
   background: rgba(0, 0, 0, 1);
 }
