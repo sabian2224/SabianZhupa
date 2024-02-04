@@ -11,6 +11,19 @@
 --------------------------------------------------------------*/
 /*Styles made by me*/
 
+/*Resume section*/
+.resume-section {
+  color: white;
+}
+
+.resume-title {
+  color: white;
+}
+
+
+
+
+
 /*Contact Form*/
 #contact {
   display: flex;
