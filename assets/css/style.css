@@ -15,6 +15,23 @@
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+#resume{ 
+  background-color:rgb(10, 16, 21);
+  color: white;
+}
+
+.resume .box-shadow-full {
+  background-color: #97dfd2;
+}
+
+.resume h3 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -26,7 +43,7 @@
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(68, 155, 255, 0.8);
   position: relative;
 }
 
@@ -36,7 +53,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: rgb(68, 155, 255);
   margin-bottom: 10px;
 }
 
@@ -69,8 +86,8 @@
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: rgb(68, 155, 255);
+  border: 2px solid rgb(68, 155, 255);
 }
 
 
@@ -111,8 +128,9 @@
 }
 
 body {
-  background-color: #212c2e;
+  background-color: rgb(10, 16, 21);
   color: #4e4e4e;
+  font-family: Roboto, Montserrat, Arial;
 }
 
 h1,
@@ -122,6 +140,7 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+  font-family:Roboto, Montserrat, Arial;
 }
 
 a {
@@ -302,7 +321,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -931,7 +950,7 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 #about {
- background-color: rgb(16, 27, 33);
+ background-color: rgb(12, 26, 37);
 }
 
 #about h3 {
@@ -979,10 +998,14 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services {
+  background-color: rgb(10, 16, 21);
+}
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  
   margin-bottom: 3rem;
   text-align: center;
 }
