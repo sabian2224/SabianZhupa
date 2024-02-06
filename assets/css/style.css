@@ -1,14 +1,5 @@
-/**
-* Template Name: DevFolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/*******General********/
 /*Styles made by me*/
 
 /*Resume section*/
@@ -84,9 +75,6 @@
 
 
 
-
-
-
 /*Contact Form*/
 #contact {
   display: flex;
@@ -123,7 +111,7 @@
 }
 
 body {
-  background-color: #313131;
+  background-color: #212c2e;
   color: #4e4e4e;
 }
 
@@ -312,10 +300,9 @@ a:hover {
 }
 
 .box-shadow-full {
-  border-radius: 1rem;
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -943,8 +930,17 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about {
+ background-color: rgb(16, 27, 33);
+}
+
+#about h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 .about-mf .box-shadow-full {
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
