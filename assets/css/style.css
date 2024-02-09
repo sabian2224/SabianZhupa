@@ -3,6 +3,11 @@
 /*Styles made by me*/
 
 /*Resume section*/
+
+.resume-section h5 {
+  background-color: white;
+}
+
 .resume-section {
   color: white;
 }
@@ -134,15 +139,7 @@ body {
   font-family: Roboto, Montserrat, Arial;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1e1e1e;
-  font-family:Roboto, Montserrat, Arial;
-}
+
 
 a {
   color: #1e1e1e;
@@ -1135,6 +1132,10 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+#work {
+  background-color: rgb(18, 26, 32);
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
