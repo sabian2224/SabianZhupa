@@ -81,7 +81,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: rgb(68, 155, 255);
   margin: 4px 10px;
 }
 
@@ -128,7 +128,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: rgb(68, 155, 255);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -151,6 +151,7 @@ section .container {
   right: 30px;
   top: 30px;
   bottom: 30px;
+  height: 50px;
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
@@ -170,7 +171,23 @@ section .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
+
+.portfolio-info {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+.portfolio-button {
+  background-color: #000000;
+}
+
+
 
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
@@ -298,6 +315,21 @@ h6 {
 .portfolio-details .portfolio-info {
   padding-top: 45px;
 }
+
+.portfolio-info {
+  display: flex;
+  align-items: center;
+}
+
+.demo-button {
+  background-color: rgb(68, 155, 255);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+}
+
+
+
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;

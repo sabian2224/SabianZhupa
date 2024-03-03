@@ -226,6 +226,7 @@
   /**
    * Portfolio details slider
    */
+
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
