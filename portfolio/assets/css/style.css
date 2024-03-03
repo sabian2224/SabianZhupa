@@ -65,6 +65,7 @@ section .container {
 }
 
 .section-title h2 {
+  display: flex;
   font-size: 18px;
   font-weight: 500;
   padding: 0;
@@ -81,7 +82,7 @@ section .container {
 
 .section-title h2:before {
   content: "";
-  width: 120px;
+  flex: 1;
   height: 1px;
   display: inline-block;
   background: rgb(68, 155, 255);
@@ -90,7 +91,7 @@ section .container {
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+ flex: 1;
   height: 1px;
   display: inline-block;
   background: rgb(68, 155, 255);
