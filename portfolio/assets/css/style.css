@@ -124,6 +124,15 @@ section .container {
   padding: 2px 15px;
 }
 
+.portfolio .img-fluid {
+  height: 320px;
+  width: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
