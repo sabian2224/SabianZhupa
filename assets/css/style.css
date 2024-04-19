@@ -4,6 +4,18 @@
 
 /*Resume section*/
 
+.wp-button {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.wp-button img {
+  width: 60px;
+}
+
 .resume-section h5 {
   background-color: white;
 }
